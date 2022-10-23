@@ -1,0 +1,38 @@
+body {
+       font-family: Helvetica;
+       padding: 1em;
+       margin: 0;
+}       
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin: 0 0 1em;
+}
+
+a {
+	display: block;
+	padding: 0.5em;
+}
+
+a {
+	 border: 5px solid grey;
+}
+
+ a[title] {
+	 border-color: pink;
+}
+
+
+ a[href*="contact"] {
+	 border-color: orange;
+}
+
+a[href^=https] {
+	border-color: green;
+}
